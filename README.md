@@ -63,6 +63,9 @@ Streamlit
 pip install -r requirements.txt
 streamlit run app.py
 
+# Check Live 
+https://customersegmentationandretentionanalysis-fy3wskj4wjm9cxesjhzqz.streamlit.app/
+
 # 💡 Why No ML Churn Model?
 
 No true churn label in dataset
