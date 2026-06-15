@@ -11,8 +11,10 @@ app = FastAPI(
 
 BASE_DIR = Path(__file__).resolve().parent
 
-kmeans = joblib.load(BASE_DIR / "model" / "kmeans_model.pkl")
-scaler = joblib.load(BASE_DIR / "model" / "scaler.pkl")
+# kmeans = joblib.load(BASE_DIR / "model" / "kmeans_model.pkl")
+# scaler = joblib.load(BASE_DIR / "model" / "scaler.pkl")
+kmeans = joblib.load(BASE_DIR / "kmeans_model.pkl")
+scaler = joblib.load(BASE_DIR / "scaler.pkl")
 
 segment_map = {
     0: "Low-Value Passive Customers",
